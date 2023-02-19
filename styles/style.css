@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+
+*,*::after,
+::before{
+  margin: 0%;
+  padding:0%;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+html{
+  font-size: 16px;
+
+}
+:root{
+  
+--clr--Paleblue: hsl(225, 100%, 94%);
+--clr--Brightblue: hsl(245, 75%, 52%);
+--cclr-Very-paleblue: hsl(225, 100%, 98%);
+--clr-Desaturatedblue: hsl(224, 23%, 55%);
+--clr-Dark-blue: hsl(223, 47%, 23%);
+--box-shadow: 0px 22px 12px rgba(0,0,0,0.15);
+}
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  background-image: url(../assets/pattern-background-desktop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+/* global css */
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+a{
+text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+.hero-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.main{
+  min-height: 65vh;
+  background-color:white;
+  align-items: center;
+  justify-content: center;
+  width:380px;
+  margin:auto;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+
+}
+
+.image-pic{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.card-title{
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 700;
+  font-size:1rem;
+  color: var(--clr-Dark-blue);
+}
+.card-description{
+margin-top: 0.90rem;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 2rem;
+  color: var(--clr-Desaturatedblue);
+}
+.middle-card-container{
+  display: flex;
+  padding: 1rem 2rem;
+  margin-left: 2.40rem;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: space-between;
+  box-shadow:0px 0px 2px var(--cclr-Very-paleblue),-0px -0px 2px var(--cclr-Very-paleblue);
+  border-radius: 5px;
+  border: 2px solid var(--clr--Paleblue);
+  background-color: var(--cclr-Very-paleblue);
+width: 80%;
+height: 3.5rem;
+
+}
+
+.music{
+  width: 50px;
+}
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.payment:hover {
+  color: black;
+  background-color:gold;
+  border:2px solid gold;
+  padding: 0.75rem 5rem;
+}
+
+
+.payment{
+  margin-top: 2rem;
+  background-color: blue;
+  border: 2px solid blue;
+  padding: 0.75rem 5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+  transition: all 0.1s;
+  position: relative;
+}
+
+span{
+  color:var(--clr-Dark-blue);
+}
+.cancel-container{
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle-para{
+  font-size: 0.80rem;
+  font-weight: 700;
+  color:var(--clr-Desaturatedblue);
+}
+
+
+.btn-change{
+  border: none;
+  color: var(--clr--Brightblue);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.cancel{
+  background-color: var(--cclr-Very-paleblue);
+
+  padding: 0.25rem 3rem;
+  border: 2px solid var(--clr--Paleblue);
+  border: none;
+  color:var(--clr-Desaturatedblue);
+ margin-top:1rem;
+
+ cursor: pointer;
+
+}
+
+
+body{
+  background-image: url(../images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+
+}
+.hidden-card{
+  min-height: 62vh;
+  background-color:white;
+  align-items: center;
+  justify-content: center;
+  width:380px;
+  margin:auto;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  background-image:url(https://media.istockphoto.com/id/1271279768/photo/white-headphones-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=OfukAEOmJ_vLzvjP4CfEjmaP5rmkbUTjF3AtUGCQksQ=);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.symbol{
+  width:50px;
+   margin-left:10rem;
+  margin-top: 4rem;
+} 
+
+.thanks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 9rem;
+  font-size:2rem;
+  font-weight: 400;
+
+}
+
+.back-button{
+margin-left:10rem;
+margin-top:14rem;
+margin-bottom: 1rem;
+background-color:red;
+border: none;
+padding: 0.6rem 1rem;
+color: white;
+border-radius: 10px;
+position: relative;
+transition: all 0.1s;
+cursor: pointer;
+}
+
+.back-button:hover {
+	background: rgba(179, 0, 0, 0);
+	color: black;
+	box-shadow: inset 0 0 0 3px #1886bd;
+}
+
+.request{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: purple;
+  margin-top: 3rem;
+  font-weight: 600;
+}
+
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:700px) {
+
+  body{
+    height: 100vh;
+    max-width: 100%;
+  }
+
+
+  .main{
+    width: 75%;
+    min-height: 40vh;
+  }
+
+  .hidden-card{
+    width: 300px;
+    min-height: 38vh;
+    background-position: center;
+  }
+
+  .payment{
+    padding: 0.75rem 4rem;
+  }
+
+  .middle-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .middle-para{
+   margin: 1rem;
+  }
+
+  .back-button{
+    margin-left: 7rem;
+  }
+}
